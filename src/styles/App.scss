@@ -39,20 +39,17 @@ h2 {
 .icons {
   display: flex;
   font-size: 45px;
-  color: rgb(238, 189, 208, 0.5);
+  color: rgb(238, 189, 208);
   justify-content: center;
   gap: 3rem;
   margin-top: 2rem;
-  
 }
 a {
-  text-decoration: none;
+  color: rgb(238, 189, 208);
 }
 a:visited {
-  
-  text-decoration: none;
+  color: rgb(238, 189, 208);
 }
-
 .box {
   padding-inline: 2rem;
   text-align: center;
@@ -112,19 +109,18 @@ a:visited {
     border-bottom: solid 2px rgb(238, 189, 208, 0.5);
   }
   .icons {
+    color: rgb(238, 189, 208);
     display: flex;
     font-size: 50px;
     text-decoration: none;
     gap: 3rem;
     margin-top: 2rem;
-   
   }
   a {
-    text-decoration: none;
+    color: rgb(238, 189, 208);
   }
   a:visited {
-  
-    text-decoration: none;
+    color: rgb(238, 189, 208);
   }
 
   .box {
