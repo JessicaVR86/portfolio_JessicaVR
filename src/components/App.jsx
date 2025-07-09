@@ -22,17 +22,30 @@ function App() {
             de atención al cliente, en el sector e-commerce, seguros y banca.
           </p>
           <div className="icons">
-            <FontAwesomeIcon icon={faSquareGithub} />
-            <FontAwesomeIcon icon={faLinkedin} />
-            <FontAwesomeIcon icon={faIdCard} />
+            <a href="https://github.com/JessicaVR86" target="_blank">
+              <FontAwesomeIcon icon={faSquareGithub} />
+            </a>
+
+            <a
+              href="https://www.linkedin.com/in/jessicavrc277205356/"
+              target="_blank"
+            >
+              <FontAwesomeIcon icon={faLinkedin} />
+            </a>
+            <a
+              href="https://www.canva.com/design/DAGsIteEbWM/bhF-zjIA7fSThewe97vq9Q/view?utm_content=DAGsIteEbWM&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=ha783c67ea2"
+              target="_blank"
+            >
+              <FontAwesomeIcon icon={faIdCard} />
+            </a>
           </div>
         </div>
       </section>
       <article className="box">
         <h3 className="article_title">Sobre mi</h3>
         <p className="aboutme">
-          Este cambio de sector y el enamorarme del código me han dado una{" "}
-          <span className="strongword">energía </span>
+          Este cambio de sector y el enamorarme del código me han dado una
+          <span className="strongword"> energía </span>
           desbordante, una <span className="strongword">ilusión </span> infinita
           y unas <span className="strongword">ganas</span> tremendas para
           empezar a trabajar de ello. <br></br>A continuación os muestro los
@@ -45,65 +58,72 @@ function App() {
       <main>
         <section className="box">
           <p className="article_title">Proyectos E-commerce </p>
+          <div className="gridbox"></div>
           <p className="article_title">Proyectos durante el bootcamp</p>
-          <figure className="projectbox">
-            <a
-              href="https://beta.adalab.es/modulo-1-evaluacion-final-JessicaVR86/"
-              target="_blank"
-            >
-              <img
-                className="boximage"
-                src={projectCompany}
-                alt="projectCompany"
-              />
-            </a>
-            <figcaption className="descImage">Corporative website</figcaption>
-            <p className="tools"> HTML - CSS </p>
-          </figure>
-          <figure className="projectbox">
-            <a
-              href="https://beta.adalab.es/modulo-3-evaluacion-final-JessicaVR86/"
-              target="_blank"
-            >
-              <img
-                className="boximage"
-                src={projectHarryPotter}
-                alt="projectHarryPotter"
-              />
-            </a>
-            <figcaption className="descImage">Harry Potter website</figcaption>
-            <p className="tools">React - HTML - SCSS </p>
-          </figure>
+          <div className="gridbox">
+            <figure className="projectbox">
+              <a
+                href="https://beta.adalab.es/modulo-1-evaluacion-final-JessicaVR86/"
+                target="_blank"
+              >
+                <img
+                  className="boximage"
+                  src={projectCompany}
+                  alt="projectCompany"
+                />
+              </a>
+              <figcaption className="descImage">Corporative website</figcaption>
+              <p className="tools"> HTML - CSS </p>
+            </figure>
+            <figure className="projectbox">
+              <a
+                href="https://beta.adalab.es/modulo-3-evaluacion-final-JessicaVR86/"
+                target="_blank"
+              >
+                <img
+                  className="boximage"
+                  src={projectHarryPotter}
+                  alt="projectHarryPotter"
+                />
+              </a>
+              <figcaption className="descImage">
+                Harry Potter website
+              </figcaption>
+              <p className="tools">React - HTML - SCSS </p>
+            </figure>
 
-          <figure className="projectbox">
-            <a
-              href="https://cipactlicasillas.github.io/project-promo-53-module-2-team-3/formulary.html"
-              target="_blank"
-            >
-              <img
-                className="boximage"
-                src={projectVibeMatch}
-                alt="projectVibeMatch"
-              />
-            </a>
-            <figcaption className="descImage">Harry Potter website</figcaption>
-            <p className="tools">Javascript - HTML - SCSS </p>
-          </figure>
+            <figure className="projectbox">
+              <a
+                href="https://cipactlicasillas.github.io/project-promo-53-module-2-team-3/formulary.html"
+                target="_blank"
+              >
+                <img
+                  className="boximage"
+                  src={projectVibeMatch}
+                  alt="projectVibeMatch"
+                />
+              </a>
+              <figcaption className="descImage">
+                Harry Potter website
+              </figcaption>
+              <p className="tools">Javascript - HTML - SCSS </p>
+            </figure>
 
-          <figure className="projectbox">
-            <a
-              href="https://beta.adalab.es/modulo-2-evaluacion-final-JessicaVR86/"
-              target="_blank"
-            >
-              <img
-                className="boximage"
-                src={projectNaruto}
-                alt="projectNaruto"
-              />
-            </a>
-            <figcaption className="descImage">Naruto Films</figcaption>
-            <p className="tools">Javascript - HTML - SCSS</p>
-          </figure>
+            <figure className="projectbox">
+              <a
+                href="https://beta.adalab.es/modulo-2-evaluacion-final-JessicaVR86/"
+                target="_blank"
+              >
+                <img
+                  className="boximage"
+                  src={projectNaruto}
+                  alt="projectNaruto"
+                />
+              </a>
+              <figcaption className="descImage">Naruto Films</figcaption>
+              <p className="tools">Javascript - HTML - SCSS</p>
+            </figure>
+          </div>
         </section>
       </main>
     </>

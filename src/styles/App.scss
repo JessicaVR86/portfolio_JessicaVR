@@ -80,5 +80,63 @@ h2 {
   padding-block: 0.5rem;
 }
 
-@media (width>1024) {
+@media (width>1024px) {
+
+  .herobox {
+  padding-inline: 13rem;
+  text-align: center;
+}
+.hero {
+  margin-top: 10%;
+  margin-bottom: 5%;
+}
+
+
+h1 {
+ 
+  font-size: 50px;
+}
+h2 {
+ 
+  font-size: 30px;
+  padding-block: 1rem;
+}
+.desc {
+  font-size: 20px;
+  color:rgb(243, 147, 68, 0.7);
+  padding-block: 1.5rem;
+  border-bottom: solid 2px rgb(238, 189, 208, 0.5) ; 
+
+}
+.icons {
+  display: flex;
+  font-size: 50px;
+  color: rgb(243, 147, 68, 0.9);
+  gap: 3rem;
+  margin-top: 2rem;
+  :visited{
+    color: inherit;
+  }
+ 
+}
+ .box{
+     padding-inline: 13rem;
+  }
+.article_title {
+
+  font-size: 22px;
+  padding-block: 0.8rem;
+}
+.aboutme {
+  font-size: 20px;
+  color: rgb(243, 147, 68, 0.7);
+  padding-block: 1rem;
+  border-bottom: solid 2px rgb(238, 189, 208, 0.5);
+}
+.gridbox{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+}
+
 }
