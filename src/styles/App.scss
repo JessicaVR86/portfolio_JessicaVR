@@ -43,13 +43,14 @@ h2 {
   justify-content: center;
   gap: 3rem;
   margin-top: 2rem;
+   text-decoration: none;
 }
 a {
   text-decoration: none;
 }
 a:visited {
   color: rgb(238, 189, 208, 0.5);
-  text-decoration: none;
+  text-decoration: inherit;
 }
 
 .box {
@@ -113,17 +114,19 @@ a:visited {
   .icons {
     display: flex;
     font-size: 50px;
+    text-decoration: none;
 
     gap: 3rem;
     margin-top: 2rem;
-  }
-  a {
-    text-decoration: none;
-  }
-  a:visited {
-    color: rgb(238, 189, 208, 0.5);
-    text-decoration: none;
-  }
+   text-decoration: none;
+}
+a {
+  text-decoration: none;
+}
+a:visited {
+  color: rgb(238, 189, 208, 0.5);
+  text-decoration: inherit;
+}
 
   .box {
     padding-inline: 13rem;
