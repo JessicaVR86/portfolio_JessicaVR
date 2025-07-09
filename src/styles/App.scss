@@ -115,7 +115,6 @@ a:visited {
     display: flex;
     font-size: 50px;
     text-decoration: none;
-
     gap: 3rem;
     margin-top: 2rem;
    text-decoration: none;
@@ -124,8 +123,9 @@ a {
   text-decoration: none;
 }
 a:visited {
-  color: rgb(238, 189, 208, 0.5);
-  text-decoration: inherit;
+
+  color: inherit
+  text-decoration: none;
 }
 
   .box {
