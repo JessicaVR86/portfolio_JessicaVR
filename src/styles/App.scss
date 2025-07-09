@@ -1,25 +1,27 @@
 @use "./core/reset";
 
 body {
-  background: rgb(25, 25, 80);
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: rgb(29, 29, 58);
+  font-family:Verdana, Geneva, Tahoma, sans-serif ;
 }
 
 .herobox {
-  height: 70vh;
   padding-inline: 2rem;
   text-align: center;
-  margin-top: 25%;
+}
+.hero {
+  margin-top: 30%;
+  margin-bottom: 10%;
 }
 
 h1 {
-  background: linear-gradient(90deg, rgb(245, 176, 120),  rgb(250, 4, 139));
+  background: linear-gradient(90deg, rgb(243, 147, 68), rgb(250, 4, 139));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-size: 40px;
 }
 h2 {
-  background: linear-gradient(90deg,rgb(245, 176, 120), rgb(250, 4, 139));
+  background: linear-gradient(90deg,rgb(243, 147, 68), rgb(250, 4, 139));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-size: 21px;
@@ -27,40 +29,55 @@ h2 {
 }
 .desc {
   font-size: 16px;
-  color:rgb(245, 176, 120);
+  color:rgb(243, 147, 68, 0.7);
   padding-block: 1.5rem;
   border-bottom: solid 2px rgb(238, 189, 208, 0.5);
 }
 .strongword {
   color: rgb(250, 4, 139);
 }
-.icons{
+.icons {
   display: flex;
   font-size: 45px;
-  color:rgb(245, 176, 120);
- justify-content:center ;
- gap: 3rem;
- margin-top: 2rem;
+  color: rgb(243, 147, 68, 0.9);
+  justify-content: center;
+  gap: 3rem;
+  margin-top: 2rem;
 }
 
-.articlebox{
+.box {
   padding-inline: 2rem;
   text-align: center;
-
 }
-.article_title{
-  background: linear-gradient(90deg,rgb(245, 176, 120), rgb(250, 4, 139));
+.article_title {
+  background: linear-gradient(90deg, rgb(243, 147, 68, 0.7), rgb(250, 4, 139));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-size: 18px;
-  
+  padding-block: 0.8rem;
 }
-.aboutme{
-   font-size: 16px;
-  color:rgb(245, 176, 120);
+.aboutme {
+  font-size: 16px;
+  color: rgb(243, 147, 68, 0.7);
   padding-block: 1rem;
   border-bottom: solid 2px rgb(238, 189, 208, 0.5);
-
+}
+.projectbox{
+  padding-block: 1.5rem;
+  text-align: center;
+}
+.boximage {
+  max-width: 320px;
+}
+.descImage {
+  font-size: 15px;
+  color: rgba(199, 190, 185, 0.747);
+ 
+}
+.tools {
+  color:rgb(243, 147, 68, 0.7);
+  font-size: 18px; 
+  padding-block: 0.5rem;
 }
 
 @media (width>1024) {
