@@ -29,7 +29,7 @@ h2 {
 }
 .desc {
   font-size: 16px;
-  color: rgb(156, 154, 154,);
+  color: rgb(156, 154, 154);
   padding-block: 1.5rem;
   border-bottom: solid 2px rgb(238, 189, 208, 0.5);
 }
@@ -65,7 +65,7 @@ a:visited {
 }
 .aboutme {
   font-size: 16px;
-  color:rgb(156, 154, 154,);
+  color: rgb(156, 154, 154);
   padding-block: 1rem;
   border-bottom: solid 2px rgb(238, 189, 208, 0.5);
 }
@@ -79,10 +79,10 @@ a:visited {
 }
 .descImage {
   font-size: 15px;
-  color: rgb(156, 154, 154,);
+  color: rgb(156, 154, 154);
 }
 .tools {
-  color: rgb(156, 154, 154,);
+  color: rgb(156, 154, 154);
   font-size: 18px;
   padding-block: 0.5rem;
 }
@@ -116,6 +116,13 @@ a:visited {
 
     gap: 3rem;
     margin-top: 2rem;
+  }
+  a {
+    text-decoration: none;
+  }
+  a:visited {
+    color: rgb(238, 189, 208, 0.5);
+    text-decoration: none;
   }
 
   .box {

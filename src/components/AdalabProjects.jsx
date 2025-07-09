@@ -43,7 +43,7 @@ function AdalabProjects(props) {
               alt="projectVibeMatch"
             />
           </a>
-          <figcaption className="descImage">Harry Potter website</figcaption>
+          <figcaption className="descImage">Vibe Match website</figcaption>
           <p className="tools">Javascript - HTML - SCSS </p>
         </figure>
 
