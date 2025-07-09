@@ -11,6 +11,7 @@ import Hero from "./Hero";
 import Desc from "./Desc";
 import OwnProjects from "./OwnProjects";
 import AdalabProjects from "./AdalabProjects";
+import projectJeans from "../images/jeanscover.jpg";
 
 function App() {
   return (
@@ -41,12 +42,13 @@ function App() {
       <Desc />
       <main>
         <section className="box">
-          <OwnProjects />
+          <OwnProjects    projectJeans ={projectJeans}/>
           <AdalabProjects
             projectCompany={projectCompany}
             projectHarryPotter={projectHarryPotter}
             projectNaruto={projectNaruto}
             projectVibeMatch={projectVibeMatch}
+          
           />
         </section>
       </main>
