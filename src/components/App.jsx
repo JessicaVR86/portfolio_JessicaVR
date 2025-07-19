@@ -7,6 +7,7 @@ import projectCompany from "../images/AnonymousProxy.jpg";
 import projectHarryPotter from "../images/HarryPotter.jpg";
 import projectNaruto from "../images/Naruto.jpg";
 import projectVibeMatch from "../images/vibeMatch.jpg";
+import projectList from "../images/ListPromo53.jpg";
 import Hero from "./Hero";
 import Desc from "./Desc";
 import OwnProjects from "./OwnProjects";
@@ -48,6 +49,7 @@ function App() {
             projectHarryPotter={projectHarryPotter}
             projectNaruto={projectNaruto}
             projectVibeMatch={projectVibeMatch}
+            projectList={projectList}
           
           />
         </section>

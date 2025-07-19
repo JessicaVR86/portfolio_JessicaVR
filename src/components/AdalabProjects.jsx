@@ -47,6 +47,22 @@ function AdalabProjects(props) {
           <p className="tools">Javascript - HTML - SCSS </p>
         </figure>
 
+     <figure className="projectbox">
+          <a
+            href="https://jessicavr86.github.io/modulo-react-ejercicio-intermedio/"
+            target="_blank"
+          >
+            <img
+              className="boximage"
+              src={props.projectList}
+              alt="projectList"
+            />
+          </a>
+          <figcaption className="descImage">Lista de alumnas</figcaption>
+          <p className="tools">React - HTML - SCSS </p>
+        </figure>
+
+
         <figure className="projectbox">
           <a
             href="https://beta.adalab.es/modulo-2-evaluacion-final-JessicaVR86/"
