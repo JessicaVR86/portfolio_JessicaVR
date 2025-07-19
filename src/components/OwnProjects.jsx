@@ -1,7 +1,7 @@
 function OwnProjects(props) {
   return (
     <> 
-    <p className="article_title">Proyectos E-commerce </p>
+    <p className="article_title">Proyectos Post-bootcamp </p>
           <div className="gridbox"></div>
 
           <figure className="projectbox">
