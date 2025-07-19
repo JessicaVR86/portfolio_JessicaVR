@@ -8,6 +8,7 @@ import projectHarryPotter from "../images/HarryPotter.jpg";
 import projectNaruto from "../images/Naruto.jpg";
 import projectVibeMatch from "../images/vibeMatch.jpg";
 import projectList from "../images/ListPromo53.jpg";
+import projectFestivos from "../images/Festivos.jpg";
 import Hero from "./Hero";
 import Desc from "./Desc";
 import OwnProjects from "./OwnProjects";
@@ -43,13 +44,14 @@ function App() {
       <Desc />
       <main>
         <section className="box">
-          <OwnProjects    projectJeans ={projectJeans}/>
+          <OwnProjects    projectJeans ={projectJeans}    projectFestivos={projectFestivos}/>
           <AdalabProjects
             projectCompany={projectCompany}
             projectHarryPotter={projectHarryPotter}
             projectNaruto={projectNaruto}
             projectVibeMatch={projectVibeMatch}
             projectList={projectList}
+           
           
           />
         </section>
