@@ -2,7 +2,6 @@ import "../styles/App.scss";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSquareGithub } from "@fortawesome/free-brands-svg-icons";
 import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
-import { faIdCard } from "@fortawesome/free-solid-svg-icons";
 import projectCompany from "../images/AnonymousProxy.jpg";
 import projectHarryPotter from "../images/HarryPotter.jpg";
 import projectNaruto from "../images/Naruto.jpg";
@@ -32,27 +31,22 @@ function App() {
             >
               <FontAwesomeIcon icon={faLinkedin} />
             </a>
-            <a
-              href="https://www.canva.com/design/DAGsIteEbWM/bhF-zjIA7fSThewe97vq9Q/view?utm_content=DAGsIteEbWM&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=ha783c67ea2"
-              target="_blank"
-            >
-              <FontAwesomeIcon icon={faIdCard} />
-            </a>
           </div>
         </div>
       </section>
       <Desc />
       <main>
         <section className="box">
-          <OwnProjects    projectJeans ={projectJeans}    projectFestivos={projectFestivos}/>
+          <OwnProjects
+            projectJeans={projectJeans}
+            projectFestivos={projectFestivos}
+          />
           <AdalabProjects
             projectCompany={projectCompany}
             projectHarryPotter={projectHarryPotter}
             projectNaruto={projectNaruto}
             projectVibeMatch={projectVibeMatch}
             projectList={projectList}
-           
-          
           />
         </section>
       </main>
