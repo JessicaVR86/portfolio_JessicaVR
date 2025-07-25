@@ -13,6 +13,7 @@ import Desc from "./Desc";
 import OwnProjects from "./OwnProjects";
 import AdalabProjects from "./AdalabProjects";
 import projectJeans from "../images/jeanscover.jpg";
+import projectMolones from "../images/Molones.jpg";
 
 function App() {
   return (
@@ -47,6 +48,7 @@ function App() {
             projectNaruto={projectNaruto}
             projectVibeMatch={projectVibeMatch}
             projectList={projectList}
+            projectMolones={projectMolones}
           />
         </section>
       </main>

@@ -47,7 +47,22 @@ function AdalabProjects(props) {
           <p className="tools">Javascript - HTML - SCSS </p>
         </figure>
 
-     <figure className="projectbox">
+        <figure className="projectbox">
+          <a
+            href="https://proyecto-molon-2-0-sgwe.onrender.com/"
+            target="_blank"
+          >
+            <img
+              className="boximage"
+              src={props.projectMolones}
+              alt="projectMolones"
+            />
+          </a>
+          <figcaption className="descImage">Proyectos Molones</figcaption>
+          <p className="tools">React - Node.js - HTML - </p>
+        </figure>
+
+        <figure className="projectbox">
           <a
             href="https://jessicavr86.github.io/modulo-react-ejercicio-intermedio/"
             target="_blank"
@@ -62,13 +77,16 @@ function AdalabProjects(props) {
           <p className="tools">React - HTML - SCSS </p>
         </figure>
 
-
         <figure className="projectbox">
           <a
             href="https://beta.adalab.es/modulo-2-evaluacion-final-JessicaVR86/"
             target="_blank"
           >
-            <img className="boximage" src={props.projectNaruto} alt="projectNaruto" />
+            <img
+              className="boximage"
+              src={props.projectNaruto}
+              alt="projectNaruto"
+            />
           </a>
           <figcaption className="descImage">Naruto Films</figcaption>
           <p className="tools">Javascript - HTML - SCSS</p>
