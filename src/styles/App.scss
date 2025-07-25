@@ -10,8 +10,8 @@ body {
   text-align: center;
 }
 .hero {
-  margin-top: 30%;
-  margin-bottom: 10%;
+  margin-top: 15%;
+  margin-bottom: 6%;
 }
 
 h1 {
@@ -29,26 +29,29 @@ h2 {
 }
 .desc {
   font-size: 16px;
-  color:  rgb(99, 93, 93);
+  color: rgb(99, 93, 93);
   padding-block: 1.5rem;
   border-bottom: solid 2px rgb(238, 189, 208, 0.5);
+  text-align:center ;
+ 
 }
 .strongword {
   color: rgb(224, 66, 153);
+  
 }
 .icons {
   display: flex;
   font-size: 45px;
-  color:rgba(244, 1, 135, 0.74);
+  color: rgba(244, 1, 135, 0.74);
   justify-content: center;
   gap: 3rem;
-  margin-top: 2rem;
+  margin-top: 1.5rem;
 }
 a {
-  color:rgba(244, 1, 135, 0.74);
+  color: rgba(244, 1, 135, 0.74);
 }
 a:visited {
-  color:rgba(244, 1, 135, 0.74);
+  color: rgba(244, 1, 135, 0.74);
 }
 .box {
   padding-inline: 2rem;
@@ -63,9 +66,11 @@ a:visited {
 }
 .aboutme {
   font-size: 16px;
-  color:  rgb(99, 93, 93);
+  color: rgb(99, 93, 93);
   padding-block: 1rem;
   border-bottom: solid 2px rgb(238, 189, 208, 0.5);
+   text-align:center ;
+ 
 
 }
 .projectbox {
@@ -75,7 +80,7 @@ a:visited {
 .boximage {
   max-width: 320px;
   border-radius: 5px;
-  border-bottom:solid 2px rgb(99, 93, 93);
+  border-bottom: solid 2px rgb(99, 93, 93);
 }
 .descImage {
   font-size: 15px;
@@ -106,12 +111,11 @@ a:visited {
   }
   .desc {
     font-size: 20px;
-
     padding-block: 1.5rem;
     border-bottom: solid 2px rgb(238, 189, 208, 0.5);
   }
   .icons {
-    color:rgba(244, 1, 135, 0.74);
+    color: rgba(244, 1, 135, 0.74);
     display: flex;
     font-size: 50px;
     text-decoration: none;
@@ -119,10 +123,10 @@ a:visited {
     margin-top: 2rem;
   }
   a {
-    color:rgba(244, 1, 135, 0.74);
+    color: rgba(244, 1, 135, 0.74);
   }
   a:visited {
-    color:rgba(244, 1, 135, 0.74);
+    color: rgba(244, 1, 135, 0.74);
   }
 
   .box {
@@ -134,9 +138,9 @@ a:visited {
   }
   .aboutme {
     font-size: 20px;
-
     padding-block: 1rem;
     border-bottom: solid 2px rgb(238, 189, 208, 0.5);
+ 
   }
   .gridbox {
     display: grid;
