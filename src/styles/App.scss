@@ -10,7 +10,7 @@ body {
   text-align: center;
 }
 .hero {
-  margin-top: 15%;
+  margin-top: 10%;
   margin-bottom: 6%;
 }
 
@@ -19,6 +19,7 @@ h1 {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-size: 40px;
+  padding-bottom: 0.7rem;
 }
 h2 {
   background: linear-gradient(80deg, rgb(119, 114, 116), rgb(244, 1, 135));
@@ -30,14 +31,12 @@ h2 {
 .desc {
   font-size: 16px;
   color: rgb(99, 93, 93);
-  padding-block: 1.5rem;
+  padding-block: 1rem;
   border-bottom: solid 2px rgb(238, 189, 208, 0.5);
-  text-align:center ;
- 
+  text-align: center;
 }
 .strongword {
   color: rgb(224, 66, 153);
-  
 }
 .icons {
   display: flex;
@@ -45,7 +44,7 @@ h2 {
   color: rgba(244, 1, 135, 0.74);
   justify-content: center;
   gap: 3rem;
-  margin-top: 1.5rem;
+  margin-top: 1rem;
 }
 a {
   color: rgba(244, 1, 135, 0.74);
@@ -62,16 +61,14 @@ a:visited {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-size: 18px;
-  padding-block: 0.8rem;
+  padding-block: 0.2rem;
 }
 .aboutme {
   font-size: 16px;
   color: rgb(99, 93, 93);
   padding-block: 1rem;
   border-bottom: solid 2px rgb(238, 189, 208, 0.5);
-   text-align:center ;
- 
-
+  text-align: center;
 }
 .projectbox {
   padding-block: 1.5rem;
@@ -111,7 +108,7 @@ a:visited {
   }
   .desc {
     font-size: 20px;
-    padding-block: 1.5rem;
+    padding-block: 1rem;
     border-bottom: solid 2px rgb(238, 189, 208, 0.5);
   }
   .icons {
@@ -120,7 +117,7 @@ a:visited {
     font-size: 50px;
     text-decoration: none;
     gap: 3rem;
-    margin-top: 2rem;
+    margin-top: 1.5rem;
   }
   a {
     color: rgba(244, 1, 135, 0.74);
@@ -134,13 +131,12 @@ a:visited {
   }
   .article_title {
     font-size: 22px;
-    padding-block: 0.8rem;
+    padding-block: 0.2rem;
   }
   .aboutme {
     font-size: 20px;
     padding-block: 1rem;
     border-bottom: solid 2px rgb(238, 189, 208, 0.5);
- 
   }
   .gridbox {
     display: grid;

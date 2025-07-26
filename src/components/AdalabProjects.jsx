@@ -59,7 +59,7 @@ function AdalabProjects(props) {
             />
           </a>
           <figcaption className="descImage">Proyectos Molones</figcaption>
-          <p className="tools">React - Node.js - HTML - </p>
+          <p className="tools">React - Node.js - HTML </p>
         </figure>
 
         <figure className="projectbox">
