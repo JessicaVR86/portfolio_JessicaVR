@@ -38,10 +38,6 @@ function App() {
       <Desc />
       <main>
         <section className="box">
-          <OwnProjects
-            projectJeans={projectJeans}
-            projectFestivos={projectFestivos}
-          />
           <AdalabProjects
             projectCompany={projectCompany}
             projectHarryPotter={projectHarryPotter}
@@ -49,6 +45,10 @@ function App() {
             projectVibeMatch={projectVibeMatch}
             projectList={projectList}
             projectMolones={projectMolones}
+          />
+          <OwnProjects
+            projectJeans={projectJeans}
+            projectFestivos={projectFestivos}
           />
         </section>
       </main>
