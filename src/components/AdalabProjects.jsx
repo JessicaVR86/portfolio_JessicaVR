@@ -1,7 +1,7 @@
 function AdalabProjects(props) {
   return (
     <>
-      <p className="article_title">Proyectos durante el bootcamp</p>
+      <p className="article_title">  {props.language === "es" ? " Proyectos durante el bootcamp " : "Bootcamp Projects"}   </p>
       <div className="gridbox">
         <figure className="projectbox">
           <a

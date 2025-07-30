@@ -1,7 +1,7 @@
 function OwnProjects(props) {
   return (
     <>
-      <p className="article_title">Proyectos Post-bootcamp </p>
+      <p className="article_title"> {props.language === "es" ? "Proyectos Post-bootcamp " : "Post-bootcamp Projects"}  </p>
       <div className="gridbox">
 
       <figure className="projectbox">
@@ -24,7 +24,7 @@ function OwnProjects(props) {
           />
         </a>
         <figcaption className="descImage">
-          Jeans store / Mobile First En construcción{" "}
+          Jeans store / En construcción - Under Construction
         </figcaption>
         <p className="tools"> Javascript - React - HTML - CSS </p>
       </figure>

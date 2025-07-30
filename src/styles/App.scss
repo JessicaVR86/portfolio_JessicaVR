@@ -5,6 +5,16 @@ body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+button {
+  display: block;
+  padding: 0.3rem;
+  border-radius: 5px;
+  border-color: rgb(244, 1, 135);
+  cursor: pointer;
+  background-color: rgb(232, 196, 210);
+  margin-top: 5px;
+  color: rgb(244, 1, 135);
+}
 
 .herobox {
   padding-inline: 2rem;

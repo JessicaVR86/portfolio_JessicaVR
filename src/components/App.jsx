@@ -14,13 +14,23 @@ import OwnProjects from "./OwnProjects";
 import AdalabProjects from "./AdalabProjects";
 import projectJeans from "../images/jeanscover.jpg";
 import projectMolones from "../images/Molones.jpg";
+import { useState } from "react";
 
 function App() {
+  const [language, setLanguage] = useState("es");
+  const toggleLanguage = () => {
+    setLanguage((prevLang) => (prevLang === "es" ? "en" : "es"));
+  };
+
   return (
     <>
       <section className="herobox">
+        <button onClick={toggleLanguage}>
+          {language === "es" ? "English" : "Español"}
+        </button>
+
         <div className="hero">
-          <Hero />
+          <Hero language={language} />
           <div className="icons">
             <a href="https://github.com/JessicaVR86" target="_blank">
               <FontAwesomeIcon icon={faSquareGithub} />
@@ -35,10 +45,11 @@ function App() {
           </div>
         </div>
       </section>
-      <Desc />
+      <Desc language={language} />
       <main>
         <section className="box">
           <AdalabProjects
+            language={language}
             projectCompany={projectCompany}
             projectHarryPotter={projectHarryPotter}
             projectNaruto={projectNaruto}
@@ -47,6 +58,7 @@ function App() {
             projectMolones={projectMolones}
           />
           <OwnProjects
+            language={language}
             projectJeans={projectJeans}
             projectFestivos={projectFestivos}
           />
