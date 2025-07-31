@@ -29,23 +29,22 @@ function Desc({ language }) {
           </>
         ) : (
           <>
-            
-            Before delving into web development, I worked in customer service
-            across <span className="strongword">e-commerce</span>,
-            <span className="strongword">insurance</span>, and
-            <span className="strongword"> banking</span>, where I learned the
-            importance of communicating clearly, empathetically, and solving
-            problems effectively. Embracing technology marked a turning point in
-            my professional journey: I stepped out of my comfort zone and chose
-            to reinvent myself. This shift has filled me with
+            Before I got into web development, I worked in customer service for{" "}
+            <span className="strongword">e-commerce</span>,
+            <span className="strongword"> insurance</span>, and
+            <span className="strongword"> banking</span>. That experience taught
+            me how important it is to communicate clearly, show empathy, and
+            solve problems effectively. Embracing technology marked a turning
+            point in my professional journey: I stepped out of my comfort zone
+            and chose to reinvent myself. This shift has brought me tons of
             <span className="strongword"> energy</span>,
             <span className="strongword"> motivation</span>, and
             <span className="strongword"> enthusiasm </span> to apply everything
             I've learned to real-world projects. In this portfolio, you'll find
             exercises I completed during my training period, both individually
-            and as part of a team. I'm passionate about front-end development
-            and e-commerce, and I'm committed to continuing to build websites
-            for diverse businesses.
+            and in group projects. I'm passionate about front-end and
+            e-commerce, so I'll keep building websites for all kinds of
+            businesses.
           </>
         )}
       </p>
