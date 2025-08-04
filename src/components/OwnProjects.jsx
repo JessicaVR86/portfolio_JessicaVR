@@ -1,24 +1,18 @@
-import { useState, useEffect } from "react";
 
-function OwnProjects(props) {
-  const [projects, setProjects] = useState([]);
-  useEffect(() => {
-    fetch("/Own.json")
-      .then((response) => response.json())
-      .then((data) => setProjects(data))
-      .catch((error) => console.error("Error loading projects", error));
-  }, []);
+
+function OwnProjects({language, projectsOwn}) {
+
 
   return (
     <>
       <p className="article_title">
-        {" "}
-        {props.language === "es"
+        
+        {language === "es"
           ? "Proyectos Post-bootcamp "
-          : "Post-bootcamp Projects"}{" "}
+          : "Post-bootcamp Projects"}
       </p>
       <div className="gridbox">
-        {projects.map((project, index) => (
+        {projectsOwn.map((project, index) => (
           <figure key={index} className="projectbox">
             <a href={project.url} target="_blank" rel="noopener noreferrer">
               <img

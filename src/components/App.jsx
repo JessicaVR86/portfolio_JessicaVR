@@ -7,8 +7,25 @@ import Desc from "./Desc";
 import OwnProjects from "./OwnProjects";
 import AdalabProjects from "./AdalabProjects";
 import { useState } from "react";
+import { useEffect } from "react";
 
 function App() {
+  const [projectsAda, setProjectsAda] = useState([]);
+  useEffect(() => {
+    fetch("/Adalab.json")
+      .then((response) => response.json())
+      .then((data) => setProjectsAda(data))
+      .catch((error) => console.error("Error loading projects", error));
+  }, []);
+
+  const [projectsOwn, setProjectsOwn] = useState([]);
+  useEffect(() => {
+    fetch("/Own.json")
+      .then((response) => response.json())
+      .then((data) => setProjectsOwn(data))
+      .catch((error) => console.error("Error loading projects", error));
+  }, []);
+
   const [language, setLanguage] = useState("es");
   const toggleLanguage = () => {
     setLanguage((prevLang) => (prevLang === "es" ? "en" : "es"));
@@ -40,8 +57,8 @@ function App() {
       <Desc language={language} />
       <main>
         <section className="box">
-          <AdalabProjects language={language} />
-          <OwnProjects language={language} />
+          <AdalabProjects language={language} projectsAda={projectsAda} />
+          <OwnProjects language={language} projectsOwn={projectsOwn} />
         </section>
       </main>
     </>

@@ -1,24 +1,13 @@
-import { useState, useEffect } from "react";
-
-function AdalabProjects(props) {
-  const [projects, setProjects] = useState([]);
-  useEffect(() => {
-    fetch("./Adalab.json")
-      .then((response) => response.json())
-      .then((data) => setProjects(data))
-      .catch((error) => console.error("Error loading projects", error));
-  }, []);
-
+function AdalabProjects({ language, projectsAda }) {
   return (
     <>
       <p className="article_title">
-        {" "}
-        {props.language === "es"
+        {language === "es"
           ? " Proyectos durante el bootcamp "
-          : "Bootcamp Projects"}{" "}
+          : "Bootcamp Projects"}
       </p>
       <div className="gridbox">
-        {projects.map((project, index) => (
+        {projectsAda.map((project, index) => (
           <figure key={index} className="projectbox">
             <a href={project.url} target="_blank" rel="noopener noreferrer">
               <img
