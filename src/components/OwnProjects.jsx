@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 function OwnProjects(props) {
   const [projects, setProjects] = useState([]);
   useEffect(() => {
-    fetch("public/Own.json")
+    fetch("./public/Own.json")
       .then((response) => response.json())
       .then((data) => setProjects(data))
       .catch((error) => console.error("Error loading projects", error));

@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 function AdalabProjects(props) {
   const [projects, setProjects] = useState([]);
   useEffect(() => {
-    fetch("public/Adalab.json")
+    fetch("./public/Adalab.json")
       .then((response) => response.json())
       .then((data) => setProjects(data))
       .catch((error) => console.error("Error loading projects", error));
