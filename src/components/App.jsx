@@ -8,23 +8,20 @@ import OwnProjects from "./OwnProjects";
 import AdalabProjects from "./AdalabProjects";
 import { useState, useEffect } from "react";
 
-
-
-
 function App() {
   const [projectsAda, setProjectsAda] = useState([]);
   useEffect(() => {
-    fetch("Adalab.json")
-      .then(response => response.json())
-      .then(data => setProjectsAda(data))
+    fetch("./data/Adalab.json")
+      .then((response) => response.json())
+      .then((data) => setProjectsAda(data))
       .catch((error) => console.error("Error loading projects", error));
   }, []);
 
   const [projectsOwn, setProjectsOwn] = useState([]);
   useEffect(() => {
-    fetch("Own.json")
-      .then(response => response.json())
-      .then(data => setProjectsOwn(data))
+    fetch("./data/Own.json")
+      .then((response) => response.json())
+      .then((data) => setProjectsOwn(data))
       .catch((error) => console.error("Error loading projects", error));
   }, []);
 
