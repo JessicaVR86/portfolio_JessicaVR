@@ -1,33 +1,36 @@
+import { useState, useEffect } from "react";
+
 function OwnProjects(props) {
+  const [projects, setProjects] = useState([]);
+  useEffect(() => {
+    fetch("src/data/Own.json")
+      .then((response) => response.json())
+      .then((data) => setProjects(data))
+      .catch((error) => console.error("Error loading projects", error));
+  }, []);
+
   return (
     <>
-      <p className="article_title"> {props.language === "es" ? "Proyectos Post-bootcamp " : "Post-bootcamp Projects"}  </p>
+      <p className="article_title">
+        {" "}
+        {props.language === "es"
+          ? "Proyectos Post-bootcamp "
+          : "Post-bootcamp Projects"}{" "}
+      </p>
       <div className="gridbox">
-
-      <figure className="projectbox">
-        <a href="https://jessicavr86.github.io/dias_festivos/" target="_blank">
-          <img
-            className="boximage"
-            src={props.projectFestivos}
-            alt="projectFestivos"
-          />
-        </a>
-        <figcaption className="descImage"> Festivos </figcaption>
-        <p className="tools"> Javascript -React - HTML - CSS </p>
-      </figure>
-      <figure className="projectbox">
-        <a href="https://jessicavr86.github.io/jeansStore/" target="_blank">
-          <img
-            className="boximage"
-            src={props.projectJeans}
-            alt="projectJeans"
-          />
-        </a>
-        <figcaption className="descImage">
-          Jeans store / En construcción - Under Construction
-        </figcaption>
-        <p className="tools"> Javascript - React - HTML - CSS </p>
-      </figure>
+        {projects.map((project, index) => (
+          <figure key={index} className="projectbox">
+            <a href={project.url} target="_blank" rel="noopener noreferrer">
+              <img
+                className="boximage"
+                src={project.image}
+                alt={project.name}
+              />
+            </a>
+            <figcaption className="descImage"> {project.name} </figcaption>
+            <p className="tools"> {project.tools} </p>
+          </figure>
+        ))}
       </div>
     </>
   );
