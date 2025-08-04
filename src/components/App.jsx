@@ -12,7 +12,7 @@ import { useEffect } from "react";
 function App() {
   const [projectsAda, setProjectsAda] = useState([]);
   useEffect(() => {
-    fetch("src/components/Adalab.json")
+    fetch("/Adalab.json")
       .then(response => response.json())
       .then(data => setProjectsAda(data))
       .catch((error) => console.error("Error loading projects", error));
@@ -20,7 +20,7 @@ function App() {
 
   const [projectsOwn, setProjectsOwn] = useState([]);
   useEffect(() => {
-    fetch("src/components/Own.json")
+    fetch("/Own.json")
       .then(response => response.json())
       .then(data => setProjectsOwn(data))
       .catch((error) => console.error("Error loading projects", error));
