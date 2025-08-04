@@ -2,13 +2,13 @@
   {
     "name": "Corporative website",
     "url": "https://beta.adalab.es/modulo-1-evaluacion-final-JessicaVR86/",
-    "image": "src/images/AnonymousProxy.jpg",
+    "image": "images/AnonymousProxy.jpg",
     "tools": "HTML - SCSS"
   },
   {
     "name": "Harry Potter",
     "url": "https://beta.adalab.es/modulo-3-evaluacion-final-JessicaVR86/",
-    "image": "src/images/HarryPotter.jpg",
+    "image": "images/HarryPotter.jpg",
     "tools": "React - HTML - SCSS"
   },
   {
@@ -20,20 +20,20 @@
   {
     "name": "Proyectos Molones",
     "url": "https://proyecto-molon-2-0-sgwe.onrender.com/",
-    "image": "src/images/Molones.jpg",
+    "image": "images/Molones.jpg",
     "tools": "React - Node.js - HTML"
   },
   {
     "name": "Lista de alumnas",
     "url": "https://jessicavr86.github.io/modulo-react-ejercicio-intermedio/",
-    "image": "src/images/ListPromo53.jpg",
+    "image": "images/ListPromo53.jpg",
     "tools": "React - HTML - SCSS"
   },
 
   {
     "name": "Naruto Films",
     "url": "https://beta.adalab.es/modulo-2-evaluacion-final-JessicaVR86/",
-    "image": "src/images/Naruto.jpg",
+    "image": "images/Naruto.jpg",
     "tools": "Javascript - HTML - SCSS"
   }
 ]

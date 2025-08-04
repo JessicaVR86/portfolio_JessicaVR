@@ -6,8 +6,8 @@ import Hero from "./Hero";
 import Desc from "./Desc";
 import OwnProjects from "./OwnProjects";
 import AdalabProjects from "./AdalabProjects";
-import { useState } from "react";
-import { useEffect } from "react";
+import { useState, useEffect } from "react";
+
 
 function App() {
   const [projectsAda, setProjectsAda] = useState([]);
