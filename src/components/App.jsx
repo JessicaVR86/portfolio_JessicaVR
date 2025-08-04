@@ -13,16 +13,16 @@ function App() {
   const [projectsAda, setProjectsAda] = useState([]);
   useEffect(() => {
     fetch("src/components/Adalab.json")
-      .then((response) => response.json())
-      .then((data) => setProjectsAda(data))
+      .then(response => response.json())
+      .then(data => setProjectsAda(data))
       .catch((error) => console.error("Error loading projects", error));
   }, []);
 
   const [projectsOwn, setProjectsOwn] = useState([]);
   useEffect(() => {
     fetch("src/components/Own.json")
-      .then((response) => response.json())
-      .then((data) => setProjectsOwn(data))
+      .then(response => response.json())
+      .then(data => setProjectsOwn(data))
       .catch((error) => console.error("Error loading projects", error));
   }, []);
 
