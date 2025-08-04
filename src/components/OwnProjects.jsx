@@ -1,12 +1,7 @@
-
-
-function OwnProjects({language, projectsOwn}) {
-
-
+function OwnProjects({ language, projectsOwn }) {
   return (
     <>
       <p className="article_title">
-        
         {language === "es"
           ? "Proyectos Post-bootcamp "
           : "Post-bootcamp Projects"}
