@@ -1,19 +1,19 @@
 @use "./core/reset";
 
 body {
-  background: rgb(232, 196, 210);
+  background: rgb(222, 209, 189);
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 button {
   display: block;
-  padding: 0.3rem;
+  padding: 0.4rem;
   border-radius: 5px;
-  border-color: rgb(244, 1, 135);
+  border-color:  rgb(104, 59, 43, 0.5);
   cursor: pointer;
-  background-color: rgb(232, 196, 210);
+  background-color: rgb(250, 236, 219);
   margin-top: 5px;
-  color: rgb(244, 1, 135);
+  color:rgb(104, 59, 43);
 }
 
 .herobox {
@@ -26,14 +26,14 @@ button {
 }
 
 h1 {
-  background: linear-gradient(80deg, rgb(119, 114, 116), rgb(244, 1, 135));
+  background: linear-gradient(80deg, rgb(119, 114, 116), rgb(212, 96, 96));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-size: 40px;
   padding-bottom: 0.7rem;
 }
 h2 {
-  background: linear-gradient(80deg, rgb(119, 114, 116), rgb(244, 1, 135));
+  background: linear-gradient(80deg, rgb(119, 114, 116), rgb(212, 96, 96));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-size: 21px;
@@ -47,28 +47,28 @@ h2 {
   text-align: center;
 }
 .strongword {
-  color: rgb(224, 66, 153);
+  color: rgb(212, 96, 96);
 }
 .icons {
   display: flex;
   font-size: 45px;
-  color: rgba(244, 1, 135, 0.74);
+  color: rgb(212, 96, 96);
   justify-content: center;
   gap: 3rem;
   margin-top: 1rem;
 }
 a {
-  color: rgba(244, 1, 135, 0.74);
+  color:rgb(212, 96, 96);
 }
 a:visited {
-  color: rgba(244, 1, 135, 0.74);
+  color:rgb(212, 96, 96);
 }
 .box {
   padding-inline: 2rem;
   text-align: center;
 }
 .article_title {
-  background: linear-gradient(80deg, rgb(119, 114, 116), rgb(244, 1, 135));
+  background: linear-gradient(80deg, rgb(119, 114, 116),rgb(212, 96, 96));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-size: 18px;
@@ -123,7 +123,7 @@ a:visited {
     border-bottom: solid 2px rgb(238, 189, 208, 0.5);
   }
   .icons {
-    color: rgba(244, 1, 135, 0.74);
+    color:rgb(212, 96, 96);
     display: flex;
     font-size: 50px;
     text-decoration: none;
@@ -131,10 +131,10 @@ a:visited {
     margin-top: 1.5rem;
   }
   a {
-    color: rgba(244, 1, 135, 0.74);
+    color:rgb(212, 96, 96);
   }
   a:visited {
-    color: rgba(244, 1, 135, 0.74);
+    color: rgb(212, 96, 96);
   }
 
   .box {
