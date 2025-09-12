@@ -29,10 +29,10 @@ function Hero({ language }) {
             desafíos técnicos que fortalecieron mi autonomía, lógica y capacidad
             de resolución.<br></br>Por iniciativa propia, me he formado en
             <span className="strongword"> Prompt Engineering</span> y en el uso
-            de modelos de lenguaje <span className="strongword">(LLM) </span>
-            aplicados a la inteligencia artificial, lo que me permite integrar
-            <span className="strongword"> IA</span> en mis procesos para ser más
-            eficaz, estratégica y creativa.
+            de modelos de lenguaje <span className="strongword">(LLM)</span>{" "}
+            aplicados a la inteligencia artificial, como parte de mi compromiso
+            con la innovación y la actualización continua en herramientas
+            emergentes.
           </>
         ) : (
           <>
@@ -54,12 +54,12 @@ function Hero({ language }) {
             <span className="strongword"> C programming</span>, facing technical
             challenges that enhanced my autonomy, logic, and problem-solving
             abilities.
-            <br></br>On my own initiative, I've trained in
-            <span className="strongword"> Prompt Engineering</span> and the use
-            of <span className="strongword">LLM</span> language models applied
-            to artificial intelligence, which enables me to integrate
-            <span className="strongword"> AI</span> into my workflows to be more
-            effective, strategic, and creative.
+            <br></br>On my own initiative, I have trained in
+            <span className="strongword"> Prompt Engineering</span> and in the
+            use of
+            <span className="strongword"> (LLM)</span> language models applied to
+            artificial intelligence, as part of my commitment to innovation and
+            continuous updating in emerging tools.
           </>
         )}
       </p>

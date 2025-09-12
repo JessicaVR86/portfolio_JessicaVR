@@ -43,7 +43,7 @@ h2 {
   font-size: 16px;
   color: rgb(99, 93, 93);
   padding-block: 1rem;
-  border-bottom: solid 2px rgb(238, 189, 208, 0.5);
+
   text-align: center;
 }
 .strongword {
@@ -78,7 +78,7 @@ a:visited {
   font-size: 16px;
   color: rgb(99, 93, 93);
   padding-block: 1rem;
-  border-bottom: solid 2px rgb(238, 189, 208, 0.5);
+
   text-align: center;
 }
 .projectbox {
@@ -101,6 +101,11 @@ a:visited {
 }
 
 @media (width>1024px) {
+button {
+  display: block;
+  padding: 0.6rem;
+}
+
   .herobox {
     padding-inline: 13rem;
     text-align: center;
@@ -120,7 +125,7 @@ a:visited {
   .desc {
     font-size: 20px;
     padding-block: 1rem;
-    border-bottom: solid 2px rgb(238, 189, 208, 0.5);
+
   }
   .icons {
     color:rgb(212, 96, 96);
@@ -147,7 +152,7 @@ a:visited {
   .aboutme {
     font-size: 20px;
     padding-block: 1rem;
-    border-bottom: solid 2px rgb(238, 189, 208, 0.5);
+
   }
   .gridbox {
     display: grid;
