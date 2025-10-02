@@ -3,18 +3,18 @@
     "name": "Festivos",
     "url": "https://jessicavr86.github.io/dias_festivos/",
     "image": "images/Festivos.jpg",
-    "tools": "Javascript -React - HTML - CSS"
+    "tools": "Javascript -React - HTML - CSS - API"
   },
   {
-    "name": "Cameras & lenses shop",
+    "name": "Parallax scrolling",
     "url": "https://jessicavr86.github.io/cameras_and_lenses/",
     "image": "images/cameras.jpg",
     "tools": "React - HTML - CSS "
   },
   {
-    "name": "Jeans Store (en construcción)",
-    "url": "https://jessicavr86.github.io/jeansStore/",
-    "image": "images/jeanscover.jpg",
-    "tools": "Javascript - React - HTML - CSS "
+    "name": "Añade links de tus RRSS ",
+    "url": " https://jessicavr86.github.io/Atmosnet/",
+    "image": "images/Atmosnet3.jpg",
+    "tools": "React - HTML - CSS "
   }
 ]
