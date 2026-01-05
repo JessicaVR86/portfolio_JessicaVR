@@ -1,11 +1,7 @@
-function AdalabProjects({ language, projectsAda }) {
+function AdalabProjects({  projectsAda }) {
   return (
     <>
-      <p className="article_title">
-        {language === "es"
-          ? " Proyectos durante el bootcamp "
-          : "Bootcamp Projects"}
-      </p>
+   
       <div className="gridbox">
         {projectsAda.map((project, index) => (
           <figure key={index} className="projectbox">

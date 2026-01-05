@@ -56,7 +56,19 @@ function App() {
       <Desc language={language} />
       <main>
         <section className="box">
+          <p className="article_title">
+            {language === "es"
+              ? " Proyectos durante el bootcamp "
+              : "Bootcamp Projects"}
+          </p>
+
           <AdalabProjects language={language} projectsAda={projectsAda} />
+
+          <p className="article_title">
+            {language === "es"
+              ? "Proyectos Post-bootcamp "
+              : "Post-bootcamp Projects"}
+          </p>
           <OwnProjects language={language} projectsOwn={projectsOwn} />
         </section>
       </main>

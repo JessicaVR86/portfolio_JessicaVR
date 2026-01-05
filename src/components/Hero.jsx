@@ -10,56 +10,37 @@ function Hero({ language }) {
       <p className="desc">
         {language === "es" ? (
           <>
-            He realizado el bootcamp de desarrollo web en Adalab, una
-            experiencia transformadora que me ha permitido dominar herramientas
-            clave como <span className="strongword">HTML</span>,
-            <span className="strongword"> CSS</span>,
-            <span className="strongword"> JavaScript</span>,
-            <span className="strongword"> React</span> en el frontend, y
-            <span className="strongword"> Node.js</span>,
-            <span className="strongword"> Express</span>,
-            <span className="strongword"> MySQL</span> y
-            <span className="strongword"> JWT</span> en el backend. Gracias a
-            esta formación, comprendo el ciclo completo de una aplicación web.
-            <br></br>Además, he participado en la exigente Piscina 42 de
-            Telefónica, donde afiancé el uso de
-            <span className="strongword"> GitHub</span>,
-            <span className="strongword"> Terminal </span>y
-            <span className="strongword"> programación en C</span>, enfrentando
-            desafíos técnicos que fortalecieron mi autonomía, lógica y capacidad
-            de resolución.<br></br>Por iniciativa propia, me he formado en
-            <span className="strongword"> Prompt Engineering</span> y en el uso
-            de modelos de lenguaje <span className="strongword">(LLM)</span>{" "}
-            aplicados a la inteligencia artificial, como parte de mi compromiso
-            con la innovación y la actualización continua en herramientas
-            emergentes.
+            He realizado el bootcamp de desarrollo web en Adalab, donde aprendí
+            a trabajar con HTML, CSS,{" "}
+            <span className="strongword">JavaScript</span>, React, Node.js,
+            Express y MySQL. También participé en la Piscina 42 de Telefónica,
+            reforzando mi lógica, autonomía y el uso de GitHub, Terminal y C.
+            <br></br>
+            Además, he completado un curso de desarrollo con IA, formándome en
+            <span className="strongword"> Python</span> y sus principales
+            librerías, y disfruto especialmente de la automatización de
+            procesos.<br></br>
+            Actualmente sigo en aprendizaje continuo: estudio{" "}
+            <span className="strongword"> Big Data </span>en Fundaula y
+            servicios cloud en el programa{" "}
+            <span className="strongword">AWS</span> re/Start en Adalab.
           </>
         ) : (
           <>
-            I completed the web development bootcamp at Adalab, a transformative
-            experience that allowed me to master key tools such as
-            <span className="strongword"> HTML</span>,
-            <span className="strongword"> CSS</span>,
-            <span className="strongword"> JavaScript</span>, and
-            <span className="strongword"> React</span> on the frontend, and
-            <span className="strongword"> Node.js</span>,
-            <span className="strongword"> Express</span>,
-            <span className="strongword"> MySQL</span>, and
-            <span className="strongword"> JWT</span> on the backend. Thanks to
-            this training, I understand the full cycle of a web application.
-            <br></br>Additionally, I took part in the demanding Piscina 42 at
-            Telefónica, where I strengthened my skills in
-            <span className="strongword"> GitHub</span>,
-            <span className="strongword"> Terminal</span>, and
-            <span className="strongword"> C programming</span>, facing technical
-            challenges that enhanced my autonomy, logic, and problem-solving
-            abilities.
-            <br></br>On my own initiative, I have trained in
-            <span className="strongword"> Prompt Engineering</span> and in the
-            use of
-            <span className="strongword"> (LLM)</span> language models applied to
-            artificial intelligence, as part of my commitment to innovation and
-            continuous updating in emerging tools.
+            I completed the web development bootcamp at Adalab, where I learned
+            to work with HTML, CSS,{" "}
+            <span className="strongword">JavaScript</span>, React, Node.js,
+            Express, and MySQL. I also took part in Telefónica's 42 Piscine,
+            strengthening my logic, autonomy, and my use of GitHub, the
+            Terminal, and C.
+            <br></br>
+            In addition, I completed a development course focused on AI, gaining
+            experience with <span className="strongword">Python</span> and its
+            main libraries, and I especially enjoy process automation.<br></br>I
+            am currently in continuous learning: I am studying{" "}
+            <span className="strongword">Big Data</span> at Fundaula and cloud
+            services through the <span className="strongword">AWS</span>{" "}
+            re/Start program at Adalab.
           </>
         )}
       </p>

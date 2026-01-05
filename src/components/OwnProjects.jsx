@@ -1,11 +1,7 @@
-function OwnProjects({ language, projectsOwn }) {
+function OwnProjects({  projectsOwn }) {
   return (
     <>
-      <p className="article_title">
-        {language === "es"
-          ? "Proyectos Post-bootcamp "
-          : "Post-bootcamp Projects"}
-      </p>
+  
       <div className="gridbox">
         {projectsOwn.map((project, index) => (
           <figure key={index} className="projectbox">
